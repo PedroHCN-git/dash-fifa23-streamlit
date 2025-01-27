@@ -16,10 +16,7 @@ if 'data' not in st.session_state:
 
 st.markdown('# FIFA23 OFICIAL DATASET ⚽')
 
-btn = st.button('Acesse os dados no Keagle')
-
-if btn:
-    webbrowser.open_new_tab(url)
+st.link_button('Acesse os dados no Keagle', url)
 
 st.markdown(
      """
